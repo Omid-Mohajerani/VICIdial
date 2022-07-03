@@ -32,5 +32,5 @@
 
 [SignalWire as SIP carrier in VICIdial -How to add a sip trunk in VICIdial?](https://github.com/Omid-Mohajerani/VICIdial/wiki/How-to-register-SIGNALWIRE-sip-trunk-as-carrier-in-VICIdial%3F)
 
-
+[How to backup VICIdial and Restore the Backup in VICIdial?](https://www.youtube.com/watch?v=_FMj0sitazU)
 

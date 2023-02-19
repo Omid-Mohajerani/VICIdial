@@ -36,3 +36,4 @@
 
 [VICIdial Scratch Install on Debian 11 - Step by Step VICIdial installation on Debian 11](https://www.patreon.com/omidmohajerani) (Patreon Users Only Post)
 
+[Auto Detecting "Not in Service Numbers" in VICIDIAL](https://github.com/Omid-Mohajerani/VICIdial/wiki/Auto-Detecting-%22Not-in-Service-Numbers%22-in-VICIDIAL.)

@@ -34,6 +34,5 @@
 
 [How to backup VICIdial and Restore the Backup in VICIdial?](https://www.youtube.com/watch?v=_FMj0sitazU)
 
-[VICIdial Scratch Install on Debian 11 - Step by Step VICIdial installation on Debian 11](https://www.patreon.com/omidmohajerani) (Patreon Users Only Post)
+[Using AGI to implement White list phone numbers in VICIdial](https://github.com/Omid-Mohajerani/VICIdial/wiki/Using-AGI-to-implement-White-list-phone-numbers-in-VICIdial)
 
-[Auto Detecting "Not in Service Numbers" in VICIDIAL](https://github.com/Omid-Mohajerani/VICIdial/wiki/Auto-Detecting-%22Not-in-Service-Numbers%22-in-VICIDIAL.)

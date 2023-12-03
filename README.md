@@ -36,3 +36,20 @@
 
 [Using AGI to implement White list phone numbers in VICIdial](https://github.com/Omid-Mohajerani/VICIdial/wiki/Using-AGI-to-implement-White-list-phone-numbers-in-VICIdial)
 
+[Installing VICIDial on DigitalOcean (The easy way)](https://www.patreon.com/posts/installing-on-83499727)
+
+[Adding SignalWire as Carrier in VICIDial ( Step by Step)](https://www.patreon.com/posts/adding-as-in-by-88857331)
+
+[How to enable Agent Soundboard in VICIdial?](https://www.patreon.com/posts/how-to-enable-in-89062396)
+
+[Add Nextiva as sip carrier in VICIdial (Asterisk)](https://www.patreon.com/posts/add-nextiva-as-89729619)
+
+[The easiest way to install VICIbox on a cloud provider.](https://www.patreon.com/posts/easiest-way-to-90245327)
+
+[PJSIP TRUNK with username and password authentication with commpeak](https://www.patreon.com/posts/pjsip-trunk-with-90906387)
+
+[How to Enable IP Whitelisting in VICIbox Version 11?](https://www.patreon.com/posts/how-to-enable-ip-92333789)
+
+[Installing VICIBOX 11 on Digital Ocean (image included)](https://www.patreon.com/posts/installing-11-on-92601796)
+
+[Twilio as SIP Carrier for VICIdial](https://www.patreon.com/posts/twilio-as-sip-93948187)

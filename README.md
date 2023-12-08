@@ -53,3 +53,5 @@
 [Installing VICIBOX 11 on Digital Ocean (image included)](https://www.patreon.com/posts/installing-11-on-92601796)
 
 [Twilio as SIP Carrier for VICIdial](https://www.patreon.com/posts/twilio-as-sip-93948187)
+
+[Installing Zabbix Agent on VICIBOX Server ](https://github.com/Omid-Mohajerani/VoIP-Monitoring/issues/2)

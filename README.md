@@ -54,4 +54,7 @@
 
 [Twilio as SIP Carrier for VICIdial](https://www.patreon.com/posts/twilio-as-sip-93948187)
 
-[Installing Zabbix Agent on VICIBOX Server ](https://github.com/Omid-Mohajerani/VoIP-Monitoring/wiki/Installing-Zabbix-Agent-on-VICIBoxServer)
+[Monitor And Barge in VICIdial using Webphone](https://www.patreon.com/posts/monitor-and-in-96035153?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+
+[Voice Codecs in VICIDial](https://www.patreon.com/posts/voice-codecs-in-96816817?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+

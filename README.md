@@ -58,3 +58,12 @@
 
 [Voice Codecs in VICIDial](https://www.patreon.com/posts/voice-codecs-in-96816817?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
 
+[How to remove bloop sound in VICIdial?](https://www.patreon.com/posts/how-to-remove-in-97242273?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+
+[VICIdial Call Recording - Access forbidden!](https://www.patreon.com/posts/vicidial-call-97836820?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+
+[How to change IP Address in VICIbox?](https://www.patreon.com/posts/how-to-change-ip-98208548?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+
+[VICIDial SIP Registration Troubleshooting](https://www.patreon.com/posts/vicidial-sip-98224649?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+
+[VICIdial Full backup and transfer to remote SFTP Server](https://www.patreon.com/posts/vicidial-full-to-98267818?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)

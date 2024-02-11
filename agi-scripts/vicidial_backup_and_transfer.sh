@@ -37,10 +37,10 @@ fi
 localFile=$(ls "$backupDir"/*.tar.gz)
 
 # Define variables - replace them with your SFTP details
-server="192.168.0.1"
-username="omid"
-password="!@!@!Ds9123lwewe"
-remoteDir="/ViciDial-Backup"
+server="192.168.2.53"
+username="support"
+password="mFQNc4q7R15I"
+remoteDir="VICIDIALBACKUP"
 
 # Get current date
 currentDate=$(date +"%Y-%m-%d")
@@ -48,16 +48,48 @@ currentDate=$(date +"%Y-%m-%d")
 # Construct the remote file name with the current date
 remoteFile="$remoteDir/vicidial-backup-$currentDate.tar.gz"
 
-# Construct the expect script
+# Construct the expect script to handle SFTP connection and file transfer
 expect -c "
 spawn sftp $username@$server
-expect \"password:\"
-send \"$password\n\"
-expect \"sftp>\"
-send \"put $localFile $remoteFile\n\"
-expect \"sftp>\"
-send \"exit\n\"
+expect {
+    \"password:\" {
+        send \"$password\n\"
+        expect {
+            \"sftp>\" {
+                send \"put $localFile $remoteFile\n\"
+                expect \"sftp>\"
+                send \"exit\n\"
+                puts \"Vicidial backup transferred to SFTP server successfully.\"
+            }
+            timeout {
+                puts \"Failed to connect to SFTP server: Timeout.\"
+                exit 1
+            }
+            eof {
+                puts \"Failed to connect to SFTP server: End of file.\"
+                exit 1
+            }
+        }
+    }
+    \"Connection refused\" {
+        puts \"Failed to connect to SFTP server: Connection refused.\"
+        exit 1
+    }
+    \"Connection timed out\" {
+        puts \"Failed to connect to SFTP server: Connection timed out.\"
+        exit 1
+    }
+    \"No route to host\" {
+        puts \"Failed to connect to SFTP server: No route to host.\"
+        exit 1
+    }
+    \"Name or service not known\" {
+        puts \"Failed to connect to SFTP server: Name or service not known.\"
+        exit 1
+    }
+    \"Network is unreachable\" {
+        puts \"Failed to connect to SFTP server: Network is unreachable.\"
+        exit 1
+    }
+}
 "
-
-echo "Vicidial backup transferred to SFTP server successfully."
-

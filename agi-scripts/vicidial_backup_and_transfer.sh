@@ -36,7 +36,7 @@ fi
 # Get the name of the local file
 localFile=$(ls "$backupDir"/*.tar.gz)
 
-# Define variables - replace them with your sftp detials
+# Define variables - replace them with your SFTP details
 server="192.168.0.1"
 username="omid"
 password="!@!@!Ds9123lwewe"
@@ -45,7 +45,7 @@ remoteDir="/ViciDial-Backup"
 # Get current date
 currentDate=$(date +"%Y-%m-%d")
 
-# Construct the remote file name with current date
+# Construct the remote file name with the current date
 remoteFile="$remoteDir/vicidial-backup-$currentDate.tar.gz"
 
 # Construct the expect script

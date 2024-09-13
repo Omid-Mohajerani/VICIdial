@@ -1,3 +1,5 @@
+[Access to All Videos](https://www.patreon.com/omidmohajerani)
+
 [How to install VICIBOX ? ](https://www.youtube.com/watch?v=JZSXp8RI7vk&list=PLcrU7LQXdqpe8FJtxIRdWnbolxmbx8MYZ)
 
 [How to add phones to VICIdial ? ](https://www.youtube.com/watch?v=oNnYQvvfug8&list=PLcrU7LQXdqpe8FJtxIRdWnbolxmbx8MYZ&index=2)
@@ -67,3 +69,5 @@
 [VICIDial SIP Registration Troubleshooting](https://www.patreon.com/posts/vicidial-sip-98224649?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
 
 [VICIdial Full backup and transfer to remote SFTP Server](https://www.patreon.com/posts/vicidial-full-to-98267818?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+
+[Audio Alerts For Waiting Calls in VICIdial](https://github.com/Omid-Mohajerani/VICIdial/wiki/Audio-Alerts--For-Waiting-Calls-in-VICIdial)

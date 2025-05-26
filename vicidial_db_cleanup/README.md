@@ -39,7 +39,7 @@ FLUSH PRIVILEGES;
 SSH into your VICIdial server and download the script:
 
 ```bash
-wget https://github.com/Omid-Mohajerani/VICIdial/blob/main/vicidial_db_cleanup/clean_db.php
+wget https://raw.githubusercontent.com/Omid-Mohajerani/VICIdial/refs/heads/main/vicidial_db_cleanup/clean_db.php
 ```
 
 Make the script executable:

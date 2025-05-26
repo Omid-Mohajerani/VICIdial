@@ -4,10 +4,10 @@
 // =====================
 
 $DB_HOST = 'localhost';
-$DB_USER = 'root';
-$DB_PASS = '';
+$DB_USER = 'dbadmin';
+$DB_PASS = 'V3ry$trongP@ssw0rd!';
 $DB_NAME = 'asterisk';
-$MONTHS_TO_KEEP = 8;
+$MONTHS_TO_KEEP = 12;
 
 // =====================
 // INITIALIZATION

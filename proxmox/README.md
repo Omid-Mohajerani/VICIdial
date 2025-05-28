@@ -27,10 +27,15 @@ Set Hostname
 
 ```bash
 hostnamectl set-hostname proxmox-host
+
+OLD_HOSTNAME=$(hostname)
+NEW_HOSTNAME=proxmox-host
+
+# Replace old hostname with new one in /etc/hosts
+sed -i "s/\b$OLD_HOSTNAME\b/$NEW_HOSTNAME/g" /etc/hosts
+
 printf "nameserver 1.1.1.1\nnameserver 8.8.8.8\n" > /etc/resolv.conf
 
-# Disable enterprise repo
-sed -i 's/^/#/' /etc/apt/sources.list.d/pve-enterprise.list
 
 apt update && apt upgrade -y
 ```
@@ -56,7 +61,7 @@ echo '# deb https://enterprise.proxmox.com/debian/pve bookworm InRelease' > /etc
 ### 2. Update and Install Proxmox
 
 ```bash
-apt update && apt full-upgrade -y
+apt update 
 apt install proxmox-ve -y
 ```
 

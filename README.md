@@ -71,3 +71,5 @@
 [VICIdial Full backup and transfer to remote SFTP Server](https://www.patreon.com/posts/vicidial-full-to-98267818?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
 
 [Audio Alerts For Waiting Calls in VICIdial](https://github.com/Omid-Mohajerani/VICIdial/wiki/Audio-Alerts--For-Waiting-Calls-in-VICIdial)
+
+[Build an AI-Powered Dialer: VICIBOX 12 + VAPI Integration - Part 1](https://www.youtube.com/watch?v=uOyn5cxGVj4&list=PLcrU7LQXdqpe8FJtxIRdWnbolxmbx8MYZ&index=44)
